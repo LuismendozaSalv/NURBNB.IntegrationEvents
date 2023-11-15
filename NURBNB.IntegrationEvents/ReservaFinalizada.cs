@@ -8,7 +8,6 @@ namespace NURBNB.IntegrationEvents
 {
     public class ReservaFinalizada
     {
-        public Guid PropiedadId { get; set; }
         public Guid ReservaId { get; set; }
     }
 }
