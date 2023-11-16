@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NURBNB.IntegrationEvents
 {
-    public class ReservaRegistrada
+    public class ReservaRegistradaEliminar
     {
         public Guid ReservaId { get; set; }
         public DateTime FechaLlegada { get; private set; }
