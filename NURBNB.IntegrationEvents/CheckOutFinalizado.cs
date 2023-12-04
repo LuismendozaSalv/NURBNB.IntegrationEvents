@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace NURBNB.IntegrationEvents
 {
-    public class CheckOutFinalizado
-    {
-        public Guid GuestId { get; set; }
-        public Guid ReservaId { get; set; }
-        public string ComentarioHuesped { get; set; }
-        public DateTime FechaSalida { get; set; }
-        public string Calificacion { get; set; }
+	public class CheckOutFinalizado
+	{
+		public Guid GuestId { get; set; }
+		public Guid ReservaId { get; set; }
+		public string ComentarioHuesped { get; set; }
+		public DateTime FechaSalida { get; set; }
+		public string Calificacion { get; set; }
 
-    }
+	}
 }
