@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace NURBNB.IntegrationEvents
-{ 
-public class ReservaRegistrada
+{
+    public class ReservaRegistrada
     {
         public DateTime fechaLlegada { get; set; }
         public DateTime fechaSalida { get; set; }
