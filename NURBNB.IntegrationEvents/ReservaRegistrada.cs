@@ -14,4 +14,5 @@ namespace NURBNB.IntegrationEvents
         public Guid reservaId { get; set; }
         public Guid PropiedadId { get; set; }
     }
+
 }

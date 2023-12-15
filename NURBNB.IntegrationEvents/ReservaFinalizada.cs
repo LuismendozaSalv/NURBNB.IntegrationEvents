@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace NURBNB.IntegrationEvents
 {
-    public class ReservaFinalizada
-    {
-        public Guid ReservaId { get; set; }
-    }
+	public class ReservaFinalizada
+	{
+		public Guid ReservaId { get; set; }
+	}
 }
